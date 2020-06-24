@@ -26,7 +26,7 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.js": [
+    "./src/**/*.[tj]s": [
       "yarn format",
       "yarn lint"
     ]
@@ -37,7 +37,8 @@
     "@nestjs/platform-express": "^7.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.5.4"
+    "rxjs": "^6.5.4",
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.0.0",
