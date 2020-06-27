@@ -33,4 +33,9 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-/config
+backend/config
+
+# Frontend
+dist
+build
+node_modules
